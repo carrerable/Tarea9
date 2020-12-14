@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Carrera Bernal Luis Eduardo</title>
+</head>
+
+<body>
+	<fieldset>
+		<legend>Datos de contacto</legend>
+		<form id="Formulario" action="javascript:procesa()" >
+		<div>
+			<label for="Nombre"> Nombre: </label><br>
+			<input type="text" name="Nombre" id="Nombre" required>
+			<output id="salida_nombre"></output>
+		</div>
+		<div>
+			<label for="Apellido_Paterno"> Apellido Paterno: </label><br>
+			<input type="text" name="Apellido_Paterno" id="Apellido_Paterno" required>
+			<output id="salida_ApellidoP"></output>
+		</div>
+		<div>
+			<label for="Apellido_Materno"> Apellido Materno: </label><br>
+			<input type="text" name="Apellido_Materno" id="Apellido_Materno" required>
+			<output id="salida_ApellidoM"></output>
+		</div>
+		<div>
+			<label for="Boleta">Boleta</label><br>
+			<input type="text" name="Boleta" id="Boleta" required>
+			<output id="salida_boleta"></output>
+		</div>
+		<div>
+			<label for="Grupo" >Grupo</label><br>
+			<input type="text" name="Grupo" id="Grupo" required>
+			<output id="salida_grupo"></output>
+		</div>
+		<div>
+			<label for="Materia" >Materia</label><br>
+			<input type="text" name="Materia" id="Materia" required>
+			<output id="salida_materia"></output>
+		</div>
+		<div>
+			<label for="Fecha" >Fecha</label><br>
+			<input type="date" name="Fecha" id="Fecha" required>
+		    <output id="salida_fecha"></output>
+		</div>
+		<br>
+		
+		<button type="submit" value="Procesar">ENVIAR</button>
+		<button type="button" onclick="limpiar()">LIMPIAR</button>
+		</form>
+	</fieldset>
+</body>
+<script type="text/javascript" src="js.js"></script>
+</html>
+
